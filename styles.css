@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/02/11/13/dark-leaves-7169402_1280.jpg);
+}
+.container {
+    width: 60vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+header > p {
+    padding: 10px;
+}
+
+footer {
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+footer > p {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.image {
+    display: flex;
+    gap: 16px
+}
+
+i {
+    font-size: 24px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+p.bn {
+    padding: 5px;
+    color: black;
+    background-color: rgb(167, 225, 225);
+    width: 120px;
+    text-align: center;
+}
+
+.percentageFill{
+    height:12px;
+    box-shadow: 1px 1px 2px 1px rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(167, 225, 225) 80%, #ffffff 80%);
+    border:1px solid black;
+}
+
+.percent {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 12px;
+}
